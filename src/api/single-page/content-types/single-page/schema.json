@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "single_pages",
+  "info": {
+    "singularName": "single-page",
+    "pluralName": "single-pages",
+    "displayName": "Single Pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "Visibility": {
+      "type": "boolean"
+    },
+    "Publish_Date": {
+      "type": "date"
+    }
+  }
+}
